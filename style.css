@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.principal {
+  margin-bottom: 20px;
+}
+
+canvas {
+  border: 2px solid #000;
+  max-width: 100%;
+  background-color: #fff;
+}
+
+.textcontrol {
+  margin-top: 10px;
+}
+input[type="text"] {
+  margin: 5px;
+  padding: 8px;
+  width: 200px;
+}
+
+button {
+  padding: 8px 15px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #0056b3;
+}
+#galerie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#galerie img {
+  width: 200px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
